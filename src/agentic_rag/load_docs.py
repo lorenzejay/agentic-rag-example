@@ -39,7 +39,3 @@ with internal_docs.batch.dynamic() as batch:
                 }
             )
             print(f"Added {filename.split('.')[0]} to Weaviate")
-
-
-if __name__ == "__main__":
-    main()
