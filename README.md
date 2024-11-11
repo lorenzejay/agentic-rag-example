@@ -9,7 +9,7 @@ Taken inspration from [this](https://weaviate.io/blog/what-is-agentic-rag) blog 
     - Retrieving information from the web
 
 
-![Agentic RAG Architecture](/agentic_rag/assets/practical_agentic_rag.png)
+![Agentic RAG Architecture](/assets/practical_agentic_rag.png)
 
 
 ## Process
