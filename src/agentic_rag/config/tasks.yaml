@@ -1,0 +1,37 @@
+fetch_tax_docs_task:
+  description: >
+    Find the relevant tax documents according to the question: {query}
+    You can use the WeaviateTool to find the relevant documents.
+    You need to provide the query and generate an appropriate question for the WeaviateTool.
+  expected_output: >
+    The relevant tax documents according to the question and the query.
+
+answer_question_task:
+  description: >
+    Find the competitors and their financial data.
+    Use the WebsiteSearchTool and EXASearchTool to find the relevant information.
+    Your company is {company}
+  expected_output: >
+    The answer to the question.
+    The answer should be in markdown format
+
+business_trends_task:
+  description: >
+    Generate a report on the latest trends we found in our business. Take our tax data and compare them from year to year: [2020, 2021, 2022, 2023].
+    You might want to use WeaviateTool to find the relevant tax documents to generate the trends.
+  expected_output: >
+    The latest business trends data from all business years.
+    The report should describe the trends in the data.
+  output_file: "outputs/business_trends.md"
+
+graph_visualization_task:
+  description: >
+    Generate a graph based on the data generating trends from the business_trends_task.
+    Use matplotlib to generate the graphs.
+    You can use the code execution agent to execute the code and generate the output.
+    The output file should be a python file and not markdown.
+  expected_output: >
+    The graph as a png file.
+    The output file should be a python file and not markdown.
+  output_file: "outputs/visualize.ipynb"
+
