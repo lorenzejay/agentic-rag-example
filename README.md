@@ -7,6 +7,7 @@ Taken inspration from [this](https://weaviate.io/blog/what-is-agentic-rag) blog 
     - Retrieving information on internal documents
 2. ExaSearchTool: This agent is responsible for searching the ExaSearch database for relevant information. Use cases for these are:
     - Retrieving information from the web
+3. Groq: Fast AI Inference
 
 
 ![Agentic RAG Architecture](/assets/practical_agentic_rag.png)
