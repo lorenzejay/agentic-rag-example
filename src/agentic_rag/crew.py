@@ -14,7 +14,7 @@ load_dotenv()
 class AgenticRagCrew:
     """AgenticRag crew"""
 
-    llm = LLM(model="gpt-4o-mini", api_key=os.getenv("OPENAI_API_KEY"))
+    llm = LLM(model="groq/llama-3.1-70b-versatile", api_key=os.getenv("GROQ_API_KEY"))
 
     @agent
     def document_rag_agent(self) -> Agent:
