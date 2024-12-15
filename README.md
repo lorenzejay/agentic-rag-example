@@ -1,6 +1,6 @@
 # AgenticRag Crew
 
-Welcome to the AgenticRag Crew project, powered by [crewAI](https://crewai.com), made by [Lorenze Jay](https://github.com/lorenze). This template shows off a hierarchical agentic process leverages multi agents with specific rag tools.
+Welcome to the AgenticRag Crew project, powered by [crewAI](https://crewai.com), made by [Lorenze Jay](https://github.com/lorenzejay). This template shows off a hierarchical agentic process leverages multi agents with specific rag tools.
 
 Taken inspration from [this](https://weaviate.io/blog/what-is-agentic-rag) blog post from the Weaviate team, we are able to have specific agents with specific rag tools:
 1. WeaviateTool: This agent is responsible for searching the Weaviate database for relevant information. Use cases for these are:
